@@ -1,0 +1,66 @@
+@media screen and (max-width: 700px) {
+    h1 {
+    color: pink;
+    }
+    p {
+      font-size: 25px;
+    }
+    h2 {
+      background-color: yellow;
+    }
+}
+
+body {
+  text-align: center;
+}
+
+.box {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  padding: 20px;
+}
+
+.red {
+  background-color: red;
+  width: 100%;
+}
+
+.green {
+  background-color: green;
+  width: 100%;
+}
+
+.blue {
+  background-color: blue;
+  width: 100%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .green {
+      display: none;
+    }
+    .blue {
+      display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .red {
+      width: 100%;
+    }
+    .green {
+      width: 100%;
+    }
+    .blue {
+      width: 100%;
+    }
+    .yellow {
+      width: 100%;
+    }
+}
